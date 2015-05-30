@@ -38,6 +38,9 @@ gem 'bootstrap-sass', '~> 3.3.4'
 # Add will_paginate 
 gem 'will_paginate', '~> 3.0'
 
+# Installing simple_form
+gem "simple_form"
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
