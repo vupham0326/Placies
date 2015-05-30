@@ -14,3 +14,14 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 0;
 	padding: 0;
 }
+
+body {
+  background: url('/assets/fresh_snow.png');
+  font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+}
+
+.navbar.navbar-inverse {
+	border-radius: 0;
+	background: url('/assets/footer_lodyas.png');
+	box-shadow: 5px 5px  5px #888888;
+}
