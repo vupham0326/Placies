@@ -50,6 +50,9 @@ gem 'geocoder'
 # Adding figaro gem to store Bing map API Key
 gem 'figaro', ">= 1.0.0"
 
+# add carrierwave gem
+gem 'carrierwave'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
