@@ -53,6 +53,10 @@ gem 'figaro', ">= 1.0.0"
 # add carrierwave gem
 gem 'carrierwave'
 
+gem 'fog', "~> 1.3.1"
+
+
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 

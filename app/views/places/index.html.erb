@@ -21,6 +21,17 @@
   	</div>
   <% end %>
 
+  <% if place.photos.present? %>
+	  <div class="col-xs-12">
+	  	
+	  	<% if place.photos.last.present? %>
+	    	<%= image_tag place.photos.last.picture, :class => 'img-responsive' %>    
+	    	<b><%= place.photos.last.caption %></b>
+	    <% end %>
+	  
+	  </div>
+	 <% end %>
+
 	</div>
 <% end %> 
 
